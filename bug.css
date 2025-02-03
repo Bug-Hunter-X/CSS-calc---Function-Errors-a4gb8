@@ -1,0 +1,1 @@
+The CSS property `calc()` is used to perform calculations. However, it can sometimes lead to unexpected results if the units are not consistent or if there are errors in the calculation. For example, if you try to subtract a percentage from a pixel value, the result might be unexpected. Another issue is that older browsers might not support the `calc()` function properly.
