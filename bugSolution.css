@@ -1,0 +1,18 @@
+/* Corrected CSS using consistent units and improved calculation */
+#element {
+  width: calc(100% - 20px);
+  /* Consistent use of percentage and pixels */
+  height: calc(50vh - 10px); 
+  /*Consistent use of vh and px */
+}
+
+/*Using CSS variables for better readability and maintainability */
+:root {
+  --main-width: 100%;
+  --side-padding: 20px;
+}
+
+#element2 {
+  width: calc(var(--main-width) - var(--side-padding));
+  height: calc(50vh - 10px);
+} 
